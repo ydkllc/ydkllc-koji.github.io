@@ -206,9 +206,9 @@
 
 <header>
   <p class="eyebrow">工事のお知らせ / KOJI INFORMATION</p>
-  <h1>○○地区 配水管布設工事（7-5工区）</h1>
+  <h1>配水管布設工事（R7-2）</h1>
   <div class="status-row">
-    <span class="badge">現在：施工中</span>
+    <span class="badge">工事予定</span>
     <span>発注者：○○市　施工者：○○建設株式会社</span>
   </div>
 </header>
@@ -218,34 +218,56 @@
 <main>
 
   <section>
-    <h2>通行止めのお知らせ</h2>
+    <h2>通行規制開始のお知らせ</h2>
     <div class="alert-card">
       <dl>
-        <dt>規制区間</dt>
-        <dd>○○丁目○番地先（一方通行区間）</dd>
-        <dt>規制期間</dt>
-        <dd>2026年7月20日（月）〜 8月末頃（予定）</dd>
-        <dt>規制時間</dt>
-        <dd>平日 8:00〜17:00（夜間・休日は通行可）</dd>
-        <dt>迂回路</dt>
-        <dd>○○通り経由でご案内しています（下図参照）</dd>
+        <dt>規制開始日</dt>
+        <dd style="font-size:20px;font-weight:900;color:var(--navy-deep);">令和8年7月20日（月）</dd>
       </dl>
-      <div class="map-placeholder">［ここに迂回路マップの画像を挿入］</div>
+      <p style="margin:10px 0 0;font-size:13px;color:var(--ink-soft);">この日から下記区間で通行規制が始まります。詳しい規制内容は「通行止めの内容」をご確認ください。</p>
     </div>
   </section>
 
   <section>
-    <h2>工事の進み具合</h2>
+    <h2>通行規制解除のお知らせ</h2>
+    <div class="alert-card" style="border-left-color:var(--teal);">
+      <dl>
+        <dt>規制解除予定日</dt>
+        <dd style="font-size:20px;font-weight:900;color:var(--navy-deep);">令和9年1月29日（金）</dd>
+      </dl>
+      <p style="margin:10px 0 0;font-size:13px;color:var(--ink-soft);">工事の進捗により前後する場合があります。解除日が確定・変更した際はこのページで改めてお知らせします。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>通行止めの内容</h2>
+    <div class="alert-card">
+      <dl>
+        <dt>規制区間</dt>
+        <dd>浦添市仲西1丁目7-20 〜 仲西1丁目1-5</dd>
+        <dt>規制期間</dt>
+        <dd>令和8年7月20日（月）〜 令和9年1月29日（金）</dd>
+        <dt>規制時間</dt>
+        <dd>月曜日〜金曜日 9:00〜17:00<br>
+            <span style="font-size:12px;color:var(--ink-soft);">※工事の進捗状況により、土日に工事を行う場合があります</span></dd>
+        <dt>迂回路</dt>
+        <dd>下図の迂回路をご利用ください</dd>
+      </dl>
+      <div class="map-placeholder">［規制区間の地図・迂回路図をここに挿入］</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>工事の進捗具合</h2>
     <div class="progress-wrap">
-      <div class="progress-label"><span>全体進捗</span><span>45%</span></div>
-      <div class="progress-bar"><div class="progress-fill" style="width:45%"></div></div>
+      <div class="progress-label"><span>全体進捗</span><span>0%</span></div>
+      <div class="progress-bar"><div class="progress-fill" style="width:0%"></div></div>
 
       <ul class="timeline">
-        <li class="done"><span class="t-date">6月上旬</span>準備工・仮設工事 完了</li>
-        <li class="done"><span class="t-date">6月下旬〜7月中旬</span>掘削・管布設（区間A） 完了</li>
-        <li class="now"><span class="t-date">7月中旬〜下旬</span>掘削・管布設（区間B） 施工中</li>
-        <li><span class="t-date">8月上旬</span>埋め戻し・仮舗装</li>
-        <li><span class="t-date">8月下旬</span>本舗装・後片付け・通行止め解除</li>
+        <li><span class="t-date">令和8年7月20日〜</span>準備工・仮設工事</li>
+        <li><span class="t-date">未定</span>掘削・管布設</li>
+        <li><span class="t-date">未定</span>埋め戻し・仮舗装</li>
+        <li><span class="t-date">令和9年1月29日</span>本舗装・後片付け・通行止め解除</li>
       </ul>
     </div>
   </section>
@@ -253,8 +275,8 @@
   <section>
     <h2>現場の様子</h2>
     <div class="photo-grid">
-      <div><div class="photo-slot">［現場写真①を挿入］</div><p class="photo-caption">7/14 掘削作業の様子</p></div>
-      <div><div class="photo-slot">［現場写真②を挿入］</div><p class="photo-caption">7/12 管の搬入</p></div>
+      <div><div class="photo-slot">［現場写真①を挿入］</div><p class="photo-caption">現場写真（随時更新）</p></div>
+      <div><div class="photo-slot">［現場写真②を挿入］</div><p class="photo-caption">現場写真（随時更新）</p></div>
     </div>
   </section>
 
@@ -263,16 +285,16 @@
     <table>
       <thead><tr><th>時期</th><th>内容</th></tr></thead>
       <tbody>
-        <tr><td>7/22（水）</td><td>夜間工事のため一部時間帯通行止め</td></tr>
-        <tr><td>7/28（火）</td><td>区間Bの掘削完了予定</td></tr>
-        <tr><td>8月上旬</td><td>埋め戻し・仮舗装開始</td></tr>
-        <tr><td>8月下旬</td><td>本舗装・通行止め解除（予定）</td></tr>
+        <tr><td>令和8年7月20日</td><td>通行規制開始・準備工事着手</td></tr>
+        <tr><td>今後決定次第掲載</td><td>掘削・管布設工事</td></tr>
+        <tr><td>今後決定次第掲載</td><td>埋め戻し・仮舗装</td></tr>
+        <tr><td>令和9年1月29日</td><td>本舗装・通行止め解除（予定）</td></tr>
       </tbody>
     </table>
   </section>
 
   <section>
-    <h2>お問い合わせ</h2>
+    <h2>お問い合わせ先</h2>
     <div class="contact-card">
       <p>工事内容やスケジュールに関するお問い合わせは、下記の窓口までお電話にてお願いいたします。</p>
       <span class="contact-phone">TEL 098-000-0000</span>
